@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv
+venv
+ENV
+venv.bak
+ENV.bak
+
+# Database / SQLite
+*.db
+*.sqlite3
+
+# Environments
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vite/React build
+dist/
+dist-ssr/
+*.local
+
+# Editor IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Project uploads/temp data (cloned repos & uploaded zips)
+backend/data/uploads/
+backend/data/cloned/
+backend/db_data/
+redis_data/
+
+# Additional ignores
+logs/
+temp_uploads/
