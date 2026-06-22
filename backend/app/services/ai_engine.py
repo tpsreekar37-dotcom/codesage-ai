@@ -5,6 +5,7 @@ from typing import Dict, List, Any, Tuple
 import google.generativeai as genai
 from pydantic import BaseModel, Field
 
+from fastapi import HTTPException
 from app.core.config import settings
 
 logger = logging.getLogger("app.ai_engine")

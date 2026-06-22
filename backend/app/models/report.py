@@ -1,3 +1,4 @@
+from __future__ import annotations
 import uuid
 from datetime import datetime
 from sqlalchemy import String, DateTime, ForeignKey, Text, Integer, JSON
